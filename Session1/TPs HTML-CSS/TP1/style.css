@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.logo{
+ margin: 25px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+	color: #333;
+	line-height: 1.4;
+	margin: 0;
+  background-image: url(img/Background.png);
+  }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(52, 50, 50);
+    border: 1px solid;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  img {
+    float: left;
+    margin-right:100px;
+  }
+
+  .main-header{
+    list-style: none;
+    color: rgb(13, 13, 13);
+    font-family: 'Roboto' sans-serif ;
+    font-size: 2rem;
+    text-align: o;
+    background-color: #abd8ba;
+    padding: 30px 50px;
+    border: 1px ;
+    line-height: 1.4;
+	  margin: 0;
+    
+  }
+
+  .flex-btw{
+    display: flex;
+    justify-content: space-between;
+    border: #abd8ba;
+    text-align: center;
+    margin: 0px;
+  }
+
+  h2{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.925);
+    font-family: 'Roboto' sans-serif ;
+    font-size: 1.5rem;
+    text-align: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #04AA6D;
+    border: 1px #04AA6D;
+    width: 100%; 
+  }
+
+  table{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: justify;
+    font-size: 1.3rem;
+    background-color:  white;
+    color: rgb(36, 34, 34);
+    margin: 25px 35px;
+   
+  }
+
+
+  h3{
+    color: black;
+    font-family: 'Roboto' sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    background-color:rgba(255, 255, 255, 0.925);
+    margin: 35px 30px;
+    border: 5px solid rgb(244, 241, 241)
+  }
+
+  h4{
+  
+    color: black;
+    font-family: 'Roboto' sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    background-color:white;
+    margin: 30px 50px;
+    border: none;
+  }
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    width: 96%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  #customers tr:hover {
+    background-color: #ddd;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 1.3rem;
+    background-color:  #abd8ba;
+    color: rgb(67, 62, 62);
+  }
+
+ p {
+  margin: 35px 50px;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+  .container{
+    max-width: 1080px 1920px;
+    padding: 10px auto;
+    margin: 40px 50px;
+    padding-top: 1rem;
+    background-color: white;
+  }
+  
+  .column{
+    float: left;
+    width: 50%;
+    border: 100px solid white;
+    
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.footer {
+   
+    text-align: center;
+    padding: 2px;
+    background-color: #abd8ba;
+    border: 1px solid white; 
+}
+

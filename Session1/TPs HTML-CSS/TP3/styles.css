@@ -1,0 +1,240 @@
+* {
+    text-align: center;
+}
+
+header {
+    background-image: url(./Images/background.png);
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+.logo {
+    width: 50px;
+    float: left;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 70px 10px 100px;
+    font-size: 20px;
+    font-style: bold;
+   
+}
+
+.buttonDeconnexion{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    float: right;
+    border: 1px red;
+    cursor: pointer;
+}
+
+.container { 
+    box-shadow: 0 2px 10px gray;
+    border-radius: 15px;
+    width: 50%;
+    display: inline-block;
+    margin-top: 10%;
+    height: 350px;
+  
+ }
+
+ .containerCompte { 
+    box-shadow: 0 2px 10px gray;
+    border-radius: 15px;
+    width: 75%;
+    display: inline-block;
+    margin-top: 1%;
+    height: 600px;
+  
+   }
+
+
+.ContainerPageCours{
+    width: 50%;
+    display: inline-block;
+    margin-top: 1%;
+    height: 650px;
+  
+    
+}
+
+
+ label {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.buttonConnexion {
+    padding: 30px;
+}
+.buttonConnexion button {
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.inputConnnexion input {
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+ table {
+    width: 80%;
+    margin: 10px;
+   
+ }
+ 
+td {
+     width: 60%; 
+     
+  
+  }
+
+  .InformationsContact{
+    box-shadow: 0px 0px 10px black;
+    margin: 10px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+ 
+  .ContainerPageCours td{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+    height: 300px;
+    padding-top: 30px;
+    width: 500px;
+    margin: 10px;
+
+}
+
+
+.ContainerPageCours tr{
+    height: 300px;
+    
+}
+
+.ContainerPageCours table{
+    border-spacing: 10px; 
+    border-collapse: 10px;
+}
+
+
+.HTML-CSS {
+background-color: green;
+padding: 10px;
+border-radius: 15px;
+width: 380px;
+
+
+}
+
+.PHP-MySQL, .Sérieux, .Pédagogie {
+background-color:grey;
+
+border-radius: 15px;
+width: 400px;
+}
+
+.PHP-MySQL-Vert, .SérieuxVert, .PédagogieVert {
+background-color: green;
+
+padding: 10px;
+border-radius: 15px;
+width: 80%;
+
+}
+
+.JavaScript, .Adaptation{
+background-color:grey;
+border-radius: 15px;
+width: 400px;
+}
+
+.JavaScript-Vert, .AdaptationVert{
+background-color: green;
+padding: 10px;
+border-radius: 15px;
+width: 60%;
+}
+
+
+.reseauxSocial  img {
+display: inline;
+height: 40px;
+width: 40px;
+
+}
+
+.ContainerPageCours img {
+
+display: block;
+height: 180px;
+width: 180px;
+padding: 20px;
+    
+}
+
+.ContainerPageCours button {
+background-color: green;
+color: white;
+border-radius: 15px;
+padding:10px;
+margin: 10px;
+cursor: pointer;
+}
+
+
+footer {
+    margin-top: 10%;
+    background-image: url(./Images/background.png);
+    color:white;
+    height: 80px;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+.footerCompte{
+    margin-top: 1%;
+    background-image: url(./Images/background.png);
+    color:white;
+    height: 80px;
+    padding: 10px;
+}
+
+.footerCours{
+    margin-top: 40px;
+    background-image: url(./Images/background.png);
+    color:white;
+    height: 80px;
+    padding: 10px;
+}
+
+.articlePerso{
+    width: 500px;
+    margin-left: 25%;
+}

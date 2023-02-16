@@ -1,0 +1,175 @@
+
+
+.logo { 
+
+  background-image: url(./images/background-header2.jpeg);
+  height: 150px; 
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 10px;
+}
+
+.texte-header {
+  margin-left: 80px;
+  color: black;
+  padding-left: 10px;
+  
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+
+
+.horizontal {
+  display: inline-block;
+  color: white;
+
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #34374c;
+}
+
+input{
+  height: 35px;
+  margin-top: 13px;
+  margin-right: 15px;
+  width: 400px;
+}
+
+.milieu {
+  height: 2400px;
+  display: flex;
+  margin-top: 20px;
+  
+}
+
+.menuMilieu {
+  background-color: white;
+  height: 150px;
+  width: 20%;
+  margin-right: 20px;
+
+}
+
+.menuMilieu li {
+  color: black;
+
+}
+
+.diapo {
+  height: 150px;
+  width: 250px;
+  
+}
+
+.image{
+  height: 90%;
+  white-space: 85%;
+  padding-top: 35px;
+}
+.content-diaporama {
+  height: 80px;
+  margin-top: 13px;
+  margin-right: 15px;
+  width: 600px;
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+.content-table{
+  height: 50px;
+  margin-top: 13px;
+  margin-right: 15px;
+  width: 600px;
+  margin-left: 220px;
+  font-weight:lighter;
+  text-decoration: underline;
+}
+
+.content-table-2{
+  height: 30px;
+  margin-top: 13px;
+  margin-right: 15px;
+  width: 600px;
+  margin-left: 220px;
+  font-weight:lighter;
+  text-decoration: underline;
+}
+
+.container-footer{
+  background-color: #34374c;
+  display: flex;
+  justify-content:space-evenly ;
+
+}
+
+span{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+b {
+  float: right;
+}
+
+
+.circuits {
+  border-collapse: collapse;
+  width: 900px;
+  height: 200px;
+  display: flex;
+}
+
+.circuits td, .circuits th {
+  border: 1px solid white;
+  padding:15px;
+ 
+}
+
+.circuits tr {
+  background-color: #f6f6f6;
+}
+
+.circuits th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #34374c;
+  color: white;
+}
+#td {
+  text-align: center;
+  background-color: #34374c;
+  color:white;
+  text-align: center;
+}
+
+.table2{
+  margin-top: 240px;
+}
+
+
+.container-footer p   {
+  color: white;
+}
+.menu{
+  display: flex;
+}
+
+.menu li{
+  color: white;
+}
+
+.sociaux{
+  padding: 20px;
+}

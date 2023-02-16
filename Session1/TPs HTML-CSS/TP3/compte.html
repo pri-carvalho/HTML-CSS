@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Compte</title>
+<link rel="stylesheet" href="styles.css">
+<meta charset='utf-8'>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./Images/logo.jpg" alt="logo">
+        <h1> Site pernonnel - TP3</h1>
+    </header>
+    <main>
+        <article class="containerCompte">
+            <h1>Veuillez créer un compte</h1>
+           <form  action="pagePerso.html">
+                
+                    <label>Entrez votre nom complet</label>
+                    <input type="text" required pattern="^[A-Za-z\s-]{1,20}$"><br>
+
+                    <label>Entrez votre login</label>
+                    <input type="text" required pattern="^[A-Za-z\s_-]{1,15}$"><br>
+
+                    <Label>Entrez votre date de naissance</Label>
+                    <input type="text" required pattern="^[0-9]{2}[-][0-9]{2}[-][0-9]{4}$"><br>
+
+                    <label>Entrez votre numero de téléphone</label>
+                    <input type="tel" required pattern="^[0-9]{3}[- ]?[0-9]{3}[- ]?[0-9]{4}$"><br>
+
+                    <label> Entrez votre code postal</label>
+                    <input type="text" pattern="^[A-Z][0-9][A-Z][\s][0-9][A-Z][0-9]$"><br>
+
+                    <label>Entrez votre mot de passe</label>
+                    <input type="password" required pattern="^[A-Za-z\s_%\$-]{10,}$"><br>
+
+                <div class="buttonConnexion">
+                    <button type="submit"> Se connecter</button> 
+                </div>
+                <div class="inputConnnexion">
+                    <input type="submit" value="Vous Avez déja un compte? Retour à la page de connexion" onclick="location.href='Connexion.html'">
+                </div>
+           </form>
+        </article>
+    </main>
+    <footer class="footerCompte">
+      <a href="https://www.cegepgarneau.ca/"> ©Cegepe Garneau</a> 2023
+      <p>Travail pratique 3</p>
+    </footer>
+    
+</body>
+</html>
