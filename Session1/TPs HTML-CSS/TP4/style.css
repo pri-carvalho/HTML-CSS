@@ -1,0 +1,52 @@
+* {
+ 
+    text-align: center;
+
+}
+
+body{
+   background-color: black;
+   max-width: 1920px;
+   height: 100vh;
+   display: flex ;
+ 
+    
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+main{
+    justify-content: center;
+}
+
+h2{
+    color: white;
+}
+form{
+    
+    background-color: rgb(36, 35, 35);
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 20%;
+    display: inline-block;
+   
+
+}
+input{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+label{
+    color: white;
+}
