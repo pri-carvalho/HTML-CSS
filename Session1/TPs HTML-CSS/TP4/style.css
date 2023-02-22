@@ -44,7 +44,8 @@ article{
 
 .date{
     width: 350px;
-    color: white;
+    color: gray;
+    background-color:rgb(27, 27, 27);
 }
 
 
@@ -86,7 +87,7 @@ form{
 
 input{
     color: white;
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     border: 1px solid white;
     margin: 10px;
     font-size: 1.5rem;
